@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+.navbar{
+    display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  background-color:rgb(101, 101, 101);
+
+}
+
+.main_container{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+  padding: 15px;
+    justify-items: center;
+    margin-left: 30px;
+   text-align: center;
+     margin-top: 50px;
+    border: 3px;
+   
+    box-shadow: 4px 4px 8px gray;
+    width: 150px;
+  
+}
+.cards .btn{
+   margin-top: 7px;
+    padding: 8px;
+}
+.player_container{
+   
+    grid-template-columns: repeat(3, 1fr);
+   
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around
+}
+.Cart_container{
+    width: 400px;
+    box-shadow: 5px 5px 8px gray;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-align: center;
+    justify-items: center;
+  
+
+}
+.bouser{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   
+   padding: 20px;
+}
+.cupon{
+    padding: 10px;
+    margin-top: 20px;
+}
+.apply_btn{
+    padding: 10px;
+}
+.total_cost{
+    padding: 10px;
+}
+.grand{
+    margin-top: 20px;
+}
+.selectedplayer{
+display: flex;
+padding: 10px;
+justify-content: space-around;
+
+}

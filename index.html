@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pactrise</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1 id="">Bugget: <span id="bugget">2500</span>$</h1>
+            <h1 >cart: <span id="cart">0</span></h1>
+            <h1 >left: <span id="lefts">6</span></h1>
+        </div>
+    </header>
+    <main class="main_container">
+        <div class="player_container">
+            <div class="cards">
+                <h3>Tamim Iqbal</h3>
+                <h3>price: <span>300</span> $</h3>
+                <h3>category: <span> Bat</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>Sakib Al</h3>
+                <h3>price: <span>300</span> $</h3>
+                <h3>category: <span>All Rounder</span> </h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>Musfiq</h3>
+                <h3>price: <span>300</span> $</h3>
+                <h3>category: <span> Bat</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>Liton Das</h3>
+                <h3>price: <span>300</span> $</h3>
+                <h3>category: <span> Bat</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>Shanto</h3>
+                <h3>price:400 $</h3>
+                <h3>category: <span> Bat</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>TMustafiz</h3>
+                <h3>price: <span>300</span> $</h3>
+                <h3>category: <span> Ball</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>Taskin</h3>
+                <h3>price: <span>300</span> $</h3>
+                <h3>category: <span> Ball</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>shariful</h3>
+                <h3>price: <span>400</span> $</h3>
+                <h3>category: <span> Ball</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>Medhedi</h3>
+                <h3>price: <span>400</span> $</h3>
+                <h3>category: <span> All rounder</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="cards">
+                <h3>tawhid Hridoy</h3>
+                <h3>price: <span>400</span> $</h3>
+                <h3>category: <span> Bat</span></h3>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
+
+
+
+        <!-- my cart container -->
+        <div class="Cart_container">
+           <div>
+            <h1>My card</h1>
+            <hr>
+            <div class="bouser">
+                <p>Name</p>
+                <p>price</p>
+                <p>cetegory</p>
+            </div>
+            <div class="selectedplayer" id="selectedplayer"></div>
+            <hr>
+            <h3 class="total_cost">Total cost<span id="total_cost">0</span>$</h3>
+            <hr>
+            <div>
+                <input id="cuppon_code" class="cupon" placeholder="cupponcode" type="text">
+                <button onclick="grandtotal(status)" class="apply_btn" >apply</button>
+            </div>
+            <h1 class="Grand">Grand Total <span id="grand_total">0</span>$</h1>
+           </div>
+        </div>
+        <script src="script/app.js"></script>
+    </main>
+</body>
+
+</html>
